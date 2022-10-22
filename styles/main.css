@@ -1,6 +1,7 @@
 /* veriical nav structure. Classes to be added and replace html elements */
 body {
     font-family: 'ubuntu', sans-serif !important;
+    color: white;
     weight: 300;
     overflow: scroll;
     overflow-x: hidden;
@@ -145,4 +146,12 @@ p {
     grid-template-columns: 100px 100px 100px 100px;
     grid-gap: 10px;
     background-color: gray;
+}
+
+/* Services Section */
+
+/* Work Section */
+#work-list {
+    list-style: none;
+    font-size: 20px;
 }
