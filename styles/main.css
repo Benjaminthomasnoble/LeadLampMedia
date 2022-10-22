@@ -6,19 +6,28 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
 
-nav {
+#main-nav {
     float: right;
 }
 
-li {
+.nav-item {
     display: block;
     margin: 0px 0px 0px 0px;
     -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
+    -ms-writing-mode: tb-lrl;
+    -moz-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -ms-transform: scale(-1, -1);
+    transform: scale(-1, -1);
     writing-mode: vertical-rl;
     padding: 30px 0px 0px 0px;
 }
