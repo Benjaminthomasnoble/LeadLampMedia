@@ -42,6 +42,8 @@ a {
 
 .nav-item {
     display: block;
+    font-family: 'ubuntu', sans-serif !important;
+    weight: 300;
     font-size: 30px;
     margin: 0px 0px 0px 0px;
     -o-transform: scale(-1, -1);
