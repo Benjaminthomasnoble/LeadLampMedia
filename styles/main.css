@@ -1,17 +1,39 @@
 /* veriical nav structure. Classes to be added and replace html elements */
 body {
+    font-family: 'ubuntu', sans-serif !important;
+    weight: 300;
     overflow: scroll;
     overflow-x: hidden;
     height: 100%;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
+    background-color: black;
 }
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#top-social-bar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.social-icons {
+    padding: 0px 5px 0px 5px;
 }
 
 #main-nav {
@@ -20,14 +42,70 @@ a {
 
 .nav-item {
     display: block;
+    font-size: 30px;
     margin: 0px 0px 0px 0px;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-lrl;
-    -moz-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
     -o-transform: scale(-1, -1);
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
     writing-mode: vertical-rl;
     padding: 30px 0px 0px 0px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 220px 0px 100px 0px;
+}
+
+#hero-img-cont {
+    border: 3px solid white;
+    padding: 50px;
+}
+
+.hr-left {
+    width: 2%;
+    margin-right: 10px;
+    background-color: white;
+    height: 1px;
+}
+
+.hr-right {
+    width: 2%;
+    margin-left: 10px;
+    background-color: white;
+    height: 1px;
+}
+
+#hero-heading-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: none;
+    width: 100%;
+}
+
+#hero-heading {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+/* #hero-heading:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: white;
+} */
