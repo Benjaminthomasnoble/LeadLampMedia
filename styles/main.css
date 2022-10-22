@@ -21,6 +21,10 @@ h5 {
     color: white;
 }
 
+h3 {
+    font-size: 30px
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -30,6 +34,8 @@ a {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 
 .social-icons {
@@ -38,6 +44,21 @@ a {
 
 #main-nav {
     float: right;
+    display: block;
+    text-align: center;
+}
+
+#main-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin-top: 25px;
+}
+
+.logo {
+    margin-top: 0px;
 }
 
 .nav-item {
@@ -45,7 +66,6 @@ a {
     font-family: 'ubuntu', sans-serif !important;
     weight: 300;
     font-size: 30px;
-    margin: 0px 0px 0px 0px;
     -o-transform: scale(-1, -1);
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
@@ -53,7 +73,7 @@ a {
     padding: 30px 0px 0px 0px;
 }
 
-.container {
+.flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,12 +122,6 @@ a {
     text-align: center;
 }
 
-/* #hero-heading:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 50%;
-    height: 1px;
-    content: '\a0';
-    background-color: white;
-} */
+#adress-bar {
+    align-self: flex-start;
+}
