@@ -1,5 +1,5 @@
-/* veriical nav structure styling
-/* body {
+/* veriical nav structure. Classes to be added and replace html elements */
+body {
     overflow: scroll;
     overflow-x: hidden;
     height: 100%;
@@ -21,4 +21,4 @@ li {
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
     padding: 30px 0px 0px 0px;
-} */
+}
