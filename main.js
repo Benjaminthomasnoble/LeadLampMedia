@@ -10,3 +10,11 @@
 //         navbar.classList.remove("sticky");
 //     }
 // }
+
+window.addEventListener('scroll', function () {
+    const shadeOne = document.querySelector('#shade1');
+    let scrollPositionY = window.pageYOffset;
+    let scrollPositionX = window.pageXOffset;
+
+    shadeOne.style.transform = 'translateY(' + scrollPositionY * .4 + 'px)';
+});

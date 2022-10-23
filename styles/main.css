@@ -1,4 +1,8 @@
 /* veriical nav structure. Classes to be added and replace html elements */
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'ubuntu', sans-serif !important;
     color: white;
@@ -60,15 +64,26 @@ p {
 }
 
 #shade1 {
-    left: -500px;
-    top: 150px;
-    transform: rotate(65deg);
+    left: -600px;
+    top: 50px;
+    transform: rotate(75deg);
 }
 
 #shade2 {
     left: 500px;
-    top: -150px;
-    transform: rotate(65deg);
+    top: -750px;
+}
+
+#shape1 {
+    left: -150px;
+    top: -600px;
+    transform: rotate(170deg);
+}
+
+#shape2 {
+    left: 700px;
+    top: 500px;
+    transform: rotate(170deg);
 }
 
 
