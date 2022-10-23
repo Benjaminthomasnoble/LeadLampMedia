@@ -146,7 +146,7 @@ p {
 
 /* Home Hero */
 #hero {
-    position: static;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,6 +158,7 @@ p {
 .hero-content {
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 #hero-img-cont {
@@ -208,6 +209,7 @@ p {
     align-self: flex-start;
     position: absolute;
     bottom: 0;
+    padding-bottom: 10px;
 }
 
 /* About Section */
