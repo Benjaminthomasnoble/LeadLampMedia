@@ -44,15 +44,19 @@ p {
     font-size: 20px;
 }
 
+#wrapper {
+    padding: 0px 100px 0px 100px;
+}
+
 
 /* Social Bar (Header) */
 #header-social-bar {
-    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin-right: 100px;
+    margin-right: 65px;
     margin-top: 30px;
+
 }
 
 .social-icons {
@@ -60,14 +64,24 @@ p {
 }
 
 /* Right Side Navbar */
-#main-nav {
-    float: right;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-#main-nav ul {
+#navbar {
+    position: fixed;
+    right: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+#navbar ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,8 +103,9 @@ p {
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
     writing-mode: vertical-rl;
-    padding: 30px 0px 0px 0px;
+    padding: 27px 0px 27px 0px;
 }
+
 
 .flex-container {
     display: flex;
@@ -98,19 +113,41 @@ p {
     align-items: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: gray;
+}
+
 
 /* Home Hero */
 #hero {
+    position: static;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 220px 0px 100px 0px;
+    margin: 35px 0px 0px 0px;
+    height: 900px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-img-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
     border: 3px solid white;
-    padding: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 75px;
+    padding-left: 75px;
+    margin: 0 auto;
 }
 
 .hr-left {
@@ -144,17 +181,15 @@ p {
 }
 
 #address-bar {
+    display: flex;
     align-self: flex-start;
-    margin-top: 75px;
+    position: absolute;
+    bottom: 0;
 }
 
 /* About Section */
-.grid-container {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap: 10px;
-    background-color: gray;
-}
+#about-section {}
+
 
 /* Services Section */
 
