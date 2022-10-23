@@ -44,7 +44,8 @@ p {
     font-size: 20px;
 }
 
-#top-social-bar {
+#header-social-bar {
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -58,8 +59,9 @@ p {
 
 #main-nav {
     float: right;
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #main-nav ul {
@@ -138,6 +140,7 @@ p {
 
 #address-bar {
     align-self: flex-start;
+    margin-top: 75px;
 }
 
 /* About Section */
