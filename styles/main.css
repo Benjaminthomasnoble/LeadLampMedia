@@ -48,6 +48,29 @@ p {
     padding: 0px 100px 0px 100px;
 }
 
+/* Neon imgs */
+.neon-img {
+    position: absolute;
+    z-index: -10;
+}
+
+#neon-bg {
+    position: sticky;
+    z-index: -1;
+}
+
+#shade1 {
+    left: -500px;
+    top: 150px;
+    transform: rotate(65deg);
+}
+
+#shade2 {
+    left: 500px;
+    top: -150px;
+    transform: rotate(65deg);
+}
+
 
 /* Social Bar (Header) */
 #header-social-bar {
@@ -76,7 +99,7 @@ p {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     overflow: hidden;
 }
@@ -103,7 +126,7 @@ p {
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
     writing-mode: vertical-rl;
-    padding: 27px 0px 27px 0px;
+    padding: .5em 0px .5em 0px;
 }
 
 
@@ -198,3 +221,5 @@ p {
     list-style: none;
     font-size: 20px;
 }
+
+@media (max-width:)
