@@ -11,10 +11,18 @@
 //     }
 // }
 
-window.addEventListener('scroll', function () {
-    const shadeOne = document.querySelector('#shade1');
-    let scrollPositionY = window.pageYOffset;
-    let scrollPositionX = window.pageXOffset;
+const shadeOne = document.querySelector('#shade1');
+const shadeTwo = document.querySelector('#shade2');
+const shapeOne = document.querySelector('#shape1');
+const shapeTwo = document.querySelector('#shape2');
 
-    shadeOne.style.transform = 'translateY(' + scrollPositionY * .4 + 'px)';
+window.addEventListener('scroll', function () {
+    // let scrollPositionY = window.pageYOffset;
+    let scrollPositionX = window.pageYOffset;
+
+    shadeOne.style.transform = 'translateX(' + scrollPositionX * -.4 + 'px)';
+    shadeTwo.style.transform = 'translateX(' + scrollPositionX * .4 + 'px)';
+    shapeOne.style.transform = 'translateX(' + scrollPositionX * -.5 + 'px)' + 'translateY(' + scrollPositionX * -.5 + 'px)';
+    shapeTwo.style.transform = 'translateX(' + scrollPositionX * .4 + 'px)' + 'translateY(' + scrollPositionX * .7 + 'px)';
+
 });
