@@ -25,6 +25,6 @@ window.addEventListener('scroll', function () {
     shadeTwo.style.transform = 'translateX(' + scrollPositionX * .4 + 'px)';
     shapeOne.style.transform = 'translateX(' + scrollPositionX * -.5 + 'px)' + 'translateY(' + scrollPositionX * -.5 + 'px)';
     shapeTwo.style.transform = 'translateX(' + scrollPositionX * .4 + 'px)' + 'translateY(' + scrollPositionX * .7 + 'px)';
-    shapeThree.style.transform = 'translateY(' + scrollPositionX * -.1 + 'px)';
+    shapeThree.style.transform = 'translateX(' + scrollPositionX * -.5 + 'px)';
 
 });
