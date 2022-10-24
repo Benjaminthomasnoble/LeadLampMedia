@@ -79,6 +79,11 @@ p {
     top: 500px;
 }
 
+#shape3 {
+    left: -500px;
+    top: 350px;
+}
+
 
 /* Social Bar (Header) */
 #header-social-bar {
