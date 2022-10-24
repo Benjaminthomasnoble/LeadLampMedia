@@ -149,13 +149,7 @@ p {
     align-items: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap: 10px;
-    background-color: gray;
-}
-
+.grid-container {}
 
 /* Home Hero */
 #hero {
@@ -226,7 +220,17 @@ p {
 }
 
 /* About Section */
-#about-section {}
+
+
+#about-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: gray;
+}
+
+.about-item-a {}
 
 
 /* Services Section */
