@@ -42,6 +42,7 @@ a {
 p {
     color: white;
     font-size: 25px;
+    padding: 5px 0px 5px 0px;
 }
 
 #wrapper {
@@ -228,12 +229,30 @@ p {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     background-color: gray;
+    border-bottom: 2px solid white;
 
 }
 
 .about-item-a {
     grid-column: 1 / 3;
     grid-row: 1 / 3;
+}
+
+.about-item-b {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+
+.about-item-c {
+    text-align: right;
+    grid-column: 4 / 6;
+    grid-row: 1 / 3;
+}
+
+.about-item-d {
+    border-left: 2px solid white;
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
 }
 
 
