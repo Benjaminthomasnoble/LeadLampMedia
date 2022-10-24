@@ -41,7 +41,7 @@ a {
 
 p {
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #wrapper {
@@ -224,13 +224,17 @@ p {
 
 #about-section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     background-color: gray;
+
 }
 
-.about-item-a {}
+.about-item-a {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
 
 
 /* Services Section */
