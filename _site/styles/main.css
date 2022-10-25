@@ -455,6 +455,16 @@ p {
         z-index: 900;
     }
 
+
+    .navbar-container {
+        display: table;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
     .navbar-menu {
         display: grid;
         grid-template-columns: auto;
@@ -490,6 +500,13 @@ p {
         background: #fff;
         transition: all .5s ease-in-out;
         z-index: 900;
+    }
+
+    .nav-item {
+        writing-mode: horizontal-tb;
+        transform: none;
+        -o-transform: none;
+        -ms-transform: none;
     }
 
     .nav-links {
@@ -610,10 +627,19 @@ p {
 }
 
 @media (max-width: 550px) {
+    #header-social-bar {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        margin-right: 65px;
+        margin-top: 30px;
+    }
+
     #hero-img-cont {
         width: 250px;
     }
 }
+
 
 
 
