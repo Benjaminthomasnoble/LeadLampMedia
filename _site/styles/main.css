@@ -113,7 +113,7 @@ p {
 #navbar {
     position: fixed;
     right: 50px;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
@@ -127,24 +127,24 @@ p {
     align-items: center;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
-
-.logo {
-    margin-top: 0px;
-}
 
 .nav-item {
     display: block;
-    font-family: 'Lato', 'ubuntu', sans-serif !important;
-    weight: 300;
     font-size: 30px;
     -o-transform: scale(-1, -1);
     -ms-transform: scale(-1, -1);
     transform: scale(-1, -1);
     writing-mode: vertical-rl;
-    padding: 25px 0px 25px 0px;
+    padding: 15px 0px 15px 0px;
+}
+
+.nav-links {}
+
+.logo {
+    margin-top: 0px;
 }
 
 .flex-container {
@@ -162,9 +162,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 35px 0px 0px 0px;
-    height: 900px;
+    margin: 0px 0px 0px 0px;
+    height: 700px;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .hero-content {
@@ -228,7 +229,7 @@ p {
     display: flex;
     align-self: flex-start;
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     padding-bottom: 10px;
 
 }
@@ -353,5 +354,3 @@ p {
     }
 
 }
-
-@media (max-width: 900px) {}
