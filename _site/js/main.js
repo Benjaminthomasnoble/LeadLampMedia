@@ -16,3 +16,16 @@ window.addEventListener('scroll', function () {
     shapeThree.style.transform = 'translateX(' + scrollPositionX * -.5 + 'px)';
 
 });
+
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar-menu');
+
+// Display Mobile Menu
+const mobileMenu = () => {
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+
+};
+
+menu.addEventListener('click', mobileMenu);
+
