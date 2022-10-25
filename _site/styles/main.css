@@ -433,6 +433,12 @@ p {
 
 @media (max-width: 948px) {
 
+    #header-social-bar {
+        justify-content: center;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
     #navbar {
         position: static;
     }
@@ -469,7 +475,7 @@ p {
 
     .navbar-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         height: 80px;
         z-index: 1;
         width: 100%;
