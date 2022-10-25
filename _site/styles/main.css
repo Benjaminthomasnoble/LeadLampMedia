@@ -84,8 +84,8 @@ p {
 }
 
 #shape3 {
-    left: 200px;
-    top: 650px;
+    left: 100px;
+    top: 600px;
 }
 
 
@@ -221,6 +221,11 @@ p {
     position: absolute;
     bottom: 0;
     padding-bottom: 10px;
+    font-weight:
+}
+
+#address-bar h3 {
+    font-weight: 300;
 }
 
 /* About Section */
