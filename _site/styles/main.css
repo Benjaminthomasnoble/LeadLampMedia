@@ -485,16 +485,18 @@ p {
 
     .navbar-menu {
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: none;
         margin: 0;
         width: 100%;
         padding: 10px 0px 0px 0px;
         position: absolute;
         top: -1000px;
+        right: 0;
+        left: 0;
         opacity: 1;
         z-index: -1;
         background: #141E30;
-        transition: all 0.5s ease;
+        transition: all .5s ease;
     }
 
     .logo {
@@ -503,7 +505,7 @@ p {
 
     .navbar-menu.active {
         background: rgb(21, 21, 21);
-        margin: auto;
+        /* margin: auto; */
         width: 100%;
         top: 0%;
         opacity: 1;
@@ -512,6 +514,11 @@ p {
         font-size: 1.6rem;
         transition: all 1s ease;
         left: 0;
+        right: 0;
+    }
+
+    #navbar ul {
+        margin: 0;
     }
 
     .navbar-toggle .bar {
@@ -523,6 +530,7 @@ p {
         background: #fff;
         transition: all .5s ease-in-out;
         z-index: 900;
+
     }
 
     .nav-item {
