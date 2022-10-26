@@ -153,7 +153,6 @@ p {
     transform: scale(-1, -1);
     writing-mode: vertical-rl;
     padding: 20px 0px 20px 0px;
-
 }
 
 .nav-links {
@@ -437,6 +436,7 @@ p {
         justify-content: center;
         margin-right: 0px;
         margin-top: 0px;
+        width: 100%;
     }
 
     #navbar {
