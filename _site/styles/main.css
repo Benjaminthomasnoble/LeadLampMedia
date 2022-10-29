@@ -526,7 +526,6 @@ p {
         height: 3px;
         margin: 5px auto;
         display: block;
-        cursor: pointer;
         background: #fff;
         transition: all .5s ease-in-out;
         z-index: 900;
@@ -553,6 +552,7 @@ p {
         transform: translate(5%, 20%);
         transition: all 0.5s ease-in-out;
         z-index: 1000;
+        cursor: pointer;
     }
 
 
