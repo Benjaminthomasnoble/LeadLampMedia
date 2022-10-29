@@ -529,7 +529,6 @@ p {
         background: #fff;
         transition: all .5s ease-in-out;
         z-index: 900;
-
     }
 
     .nav-item {
@@ -554,7 +553,6 @@ p {
         z-index: 1000;
         cursor: pointer;
     }
-
 
     #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
@@ -614,9 +612,6 @@ p {
         left: 0;
         right: 0;
     }
-
-
-
 }
 
 @media (max-width: 848px) {
